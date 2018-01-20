@@ -1,0 +1,299 @@
+.header {
+	height: 550px;
+	background: no-repeat;
+	background-size: cover;
+}
+.header a {
+	font-size: 24pt;
+	color: #fff;
+	margin: 50px 0 0 50px;
+	display: block;
+	font-family: 'Audiowide';
+	text-decoration: underline;
+}
+
+.header a:hover{
+	text-decoration:none;
+	
+}
+
+.header p {
+	font-size: 50pt;
+	color: #fff;
+	margin-top: 150px;
+	text-align: center;
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+@media screen and (max-width:760px){
+	.header {
+		height: 300px;
+	}
+	.header p {
+		display: none;
+	}
+	.header a {
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		margin: 0;
+		font-size: 14px;
+	}
+}
+
+.main-menu {
+	width: 100%;
+
+	background-color: #22173d;
+	
+}
+
+.main-menu li {
+	display: inline-block;
+	padding: 0 50px;
+	margin-left: 30px;
+}
+
+.hamburger {
+	display: none;
+}
+@media screen and (max-width:760px) {
+	
+	.main-menu {
+		padding: 0;
+		display: none;
+	}
+	.main-menu li {
+		display: block;
+		text-align: center;
+	}
+	.hamburger {
+		display: block;
+		height: 100px;
+		background-color:  #22173d;
+		text-align: right;
+		padding-right: 50px;
+	}
+}
+
+.hamburger {
+		height: 100px;
+		background-color: #22173d;
+		text-align: right;
+		padding-right: 50px;
+	}
+
+.hamburger .glyphicon {
+	font-size: 30pt;
+	padding-top: 30px;
+	cursor: pointer;
+	
+}
+
+@media screen and (min-width: 761px){
+	.main-menu{
+		display: block!important;
+	}
+}
+
+.main-menu li a {
+	color: white;
+	font-size: 24pt;
+	line-height: 100px;
+	display: block;
+	font-family: 'Audiowide';
+	
+}
+
+.main-menu li:hover {
+	background-color: #000000;
+	transition: .5s;
+}
+.main-menu li:hover a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.gallery img {
+	width: 100%;	
+}
+.gallery div {
+	padding: 5px;
+	margin-bottom: 15px;
+}
+.gallery p {
+	font-size: 21pt;
+	color: white;
+	margin-top: 2px;
+	text-align: center;
+	font-family: 'Audiowide', cursive;
+
+}
+.gallery img:hover {
+	opacity: 0.9;
+	filter: alpha(opacity=100);
+}
+
+
+.overlay {
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	transition: 1s ease;
+}
+
+.image-container:hover .overlay {
+	opacity: 0.7;
+}
+
+.image-container:hover img {
+	filter: blur(3px);
+}
+.overlay p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 18pt;
+}
+.overlay p a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+
+.contact-form {	
+	background-color: #000000;
+	padding: 100px;
+}
+.contact-form h1 {
+	color:white;
+	font-size: 24pt;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+.form-control {
+	height: 40px;
+	border-radius: 30;
+	border: 1px solid white;
+}
+.form-control::placeholder {
+	color: #000;
+}
+.btn, .btn:hover {
+	padding: 15px 25px;
+	background-color: #311966;
+	color: #fff;
+	border-radius: 40;
+}
+.btn-default {
+	border: 0;
+}
+
+
+.footer {
+	height:400px;
+	background: url('img/Footer.png') no-repeat;
+	background-size: cover;
+
+}
+
+.footer li {
+	display: inline-block;
+	padding: 0 25px;
+	margin-top: 260px;
+	float:right;
+	margin-right: 30px;
+	
+}
+
+.footer li a{
+	color: white;
+	font-size: 17pt;
+	line-height: 100px;
+	display: block;
+}
+
+
+.square-blocks div {
+	height: 250px;	
+}
+.square-blocks .light-grey-bg {
+	background-color: #311966;
+}
+.square-blocks .dark-grey-bg {
+	background-color: #000000;
+}
+.square-blocks p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 18pt;
+	text-transform: uppercase;
+	color: #ffff;
+}
+
+.square-blocks a {
+	color: white;
+}
+
+.square-blocks a:hover {
+	color: #8f42f4;
+	text-decoration: none;
+}
+
+.section {
+	margin: 80px 0;
+	
+}
+.section h1 {
+	font-size: 24pt;
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	background-color: black;
+	font-family: 'Audiowide';
+	
+}
+
+.about-me-text h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24pt;
+	font-family: 'Audiowide';
+
+}
+.about-me-text p {
+	font-size: 16pt;
+	text-align: left;
+	margin-bottom: 20px;
+	color: white;
+	font-family: 'Russo One';
+	
+}
+
+.square-blocks span {
+	font-size: 52pt;
+	
+}
+
+.about-me-image {
+	padding-left: 0px;
+}
+
