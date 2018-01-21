@@ -133,8 +133,10 @@
 
 }
 .gallery img:hover {
-	opacity: 0.9;
-	filter: alpha(opacity=100);
+	transition: all .3s ease-in-out; 
+	transform: scale(1.2);
+	-webkit-filter: drop-shadow(8px 8px 10px white);
+	filter: drop-shadow(8px 8px 10px white);
 }
 
 
