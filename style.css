@@ -304,7 +304,8 @@ body {
 
 @media screen and (max-width:500px){
 .about-me-text {
-	font-size: 10pt;
+	font-size: 12pt;
+	width: 100%;
 	
 }
 }
