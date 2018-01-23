@@ -1,3 +1,10 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: white;
+	font-size: 18pt;
+}
+
 .header {
 	height: 550px;
 	background: no-repeat;
@@ -60,43 +67,16 @@
 	display: none;
 }
 @media screen and (max-width:760px) {
-	
 	.main-menu {
 		padding: 0;
-		display: none;
 	}
 	.main-menu li {
 		display: block;
 		text-align: center;
-	}
-	.hamburger {
-		display: block;
-		height: 100px;
-		background-color:  #22173d;
-		text-align: right;
-		padding-right: 50px;
+		width: 100%;
 	}
 }
 
-.hamburger {
-		height: 100px;
-		background-color: #22173d;
-		text-align: right;
-		padding-right: 50px;
-	}
-
-.hamburger .glyphicon {
-	font-size: 30pt;
-	padding-top: 30px;
-	cursor: pointer;
-	
-}
-
-@media screen and (min-width: 761px){
-	.main-menu{
-		display: block!important;
-	}
-}
 
 .main-menu li a {
 	color: white;
@@ -119,6 +99,7 @@
 
 .gallery img {
 	width: 100%;	
+	
 }
 .gallery div {
 	padding: 5px;
@@ -207,27 +188,45 @@
 
 .footer {
 	height:400px;
-	background: url('img/Footer.png') no-repeat;
+	background: url('img/Rectangle.png') no-repeat;
 	background-size: cover;
 
 }
+.footer img {
+	margin: 100px 0 0 100px;
+}	
 
-.footer li {
+.footer ul {
+	margin-top: 100px;
+	float: right;
+}
+.footer ul li {
 	display: inline-block;
-	padding: 0 25px;
-	margin-top: 260px;
-	float:right;
-	margin-right: 30px;
-	
 }
-
-.footer li a{
+.footer ul li a {
 	color: white;
-	font-size: 17pt;
-	line-height: 100px;
+	font-size: 18pt;
+	padding-left: 30px;
+	padding-right: 30px;
 	display: block;
+	text-decoration: none;
 }
 
+@media screen and (max-width:760px) { 
+	.footer img {
+		width: 50%;
+		margin: 80px auto 0 auto;
+		display: block;
+	}
+	.footer ul {
+		margin: 80px 0 0 0;
+		text-align: center;
+		float: none;
+	}
+	.footer ul li {
+		display: block;
+	}
+}
 
 .square-blocks div {
 	height: 250px;	
@@ -258,36 +257,40 @@
 	text-decoration: none;
 }
 
-.section {
-	margin: 80px 0;
-	
-}
+
+
 .section h1 {
-	font-size: 24pt;
-	text-align: center;
 	margin-bottom: 20px;
+	text-align: center;
 	text-transform: uppercase;
-	color: white;
-	font-weight: bold;
-	background-color: black;
-	font-family: 'Audiowide';
-	
 }
-
-.about-me-text h1 {
+.square-blocks p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-transform: uppercase;
 	text-align: center;
-	font-weight: bold;
-	font-size: 24pt;
-	font-family: 'Audiowide';
-
+	font-size: 18pt;
 }
-.about-me-text p {
-	font-size: 16pt;
-	text-align: left;
+.about-me img,
+.article img {
+	width: 100%;
+}
+.about-me div,
+.article div {
+	padding: 0;
+}
+.about-me-text,
+.article-text {
+	padding-left: 40px !important;
+	padding-right: 40px !important;
+}
+.section-title {
+	margin-top: 40px;
 	margin-bottom: 20px;
-	color: white;
-	font-family: 'Russo One';
-	
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .square-blocks span {
@@ -299,3 +302,12 @@
 	padding-left: 0px;
 }
 
+@media screen and (max-width:500px){
+.about-me-text {
+	font-size: 10pt;
+	
+}
+}
+#vegas {
+	height: 500px;
+}
