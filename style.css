@@ -3,6 +3,7 @@ body {
 	font-weight: 300;
 	color: white;
 	font-size: 18pt;
+	font-family: 'Audiowide';
 }
 
 .header {
@@ -52,9 +53,8 @@ body {
 
 .main-menu {
 	width: 100%;
-
 	background-color: #22173d;
-	
+
 }
 
 .main-menu li {
@@ -63,12 +63,11 @@ body {
 	margin-left: 30px;
 }
 
-.hamburger {
-	display: none;
-}
+
 @media screen and (max-width:760px) {
 	.main-menu {
 		padding: 0;
+
 	}
 	.main-menu li {
 		display: block;
@@ -113,6 +112,16 @@ body {
 	font-family: 'Audiowide', cursive;
 
 }
+@media screen and (max-width:760px) {
+	
+	.gallery p {
+		font-size: 16pt;
+	
+	}
+ 
+}
+
+
 .gallery img:hover {
 	transition: all .3s ease-in-out; 
 	transform: scale(1.2);
@@ -257,7 +266,9 @@ body {
 	text-decoration: none;
 }
 
-
+.section {
+	margin: 50px 0;
+}
 
 .section h1 {
 	margin-bottom: 20px;
@@ -304,11 +315,13 @@ body {
 
 @media screen and (max-width:500px){
 .about-me-text {
-	font-size: 12pt;
+	font-size: 10pt;
 	width: 100%;
-	
+	text-align: center;
 }
 }
+
+
 #vegas {
 	height: 500px;
 }
