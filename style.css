@@ -320,7 +320,10 @@ body {
 	text-align: center;
 }
 }
-
+.fb-comments {
+color:black;
+outline: white;
+}
 
 #vegas {
 	height: 500px;
