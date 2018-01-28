@@ -133,15 +133,16 @@ body {
 	-moz-filter: grayscale(0%);
 	filter: grayscale(0%);
 	filter: drop-shadow(8px 8px 10px white);
-	.gallery, .fb-like img:hover {
-	display: block;
-	float: center;
-	}
 }
+
 .fb-like {
 display none;
 float: center;
 }
+.gallery, .fb-like img:hover {
+display: block;
+float: center;
+	}
 
 .overlay {
 	background-color: #000;
