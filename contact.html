@@ -23,8 +23,10 @@
 				<div class="col-xs-12 header">
 					<a href="index.html">My Portfolio</a>
 					<p>Yelloooo</p>
-
 				</div>
+			<div class="hamburger">
+				<span class="glyphicon glyphicon-align-justify"></span>
+			</div>
 			</div>
 			<div class="row">
 				<ul class="main-menu">
@@ -100,7 +102,11 @@
 })
 
 		</script>
-
+		<script>
+			$('.hamburger').click(function(){
+				$('.main-menu').slideToggle();
+			});
+		</script>
 	</body>
 	</body>
 </html>
