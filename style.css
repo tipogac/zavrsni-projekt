@@ -94,7 +94,44 @@ body {
 	text-decoration: none;
 	color: #fff;
 }
+.hamburger {
+	color: black;
+	display: none;
+	line-height: 100px;
+	background-color: #22173d;
+	padding-left: 50px;
+	text-align: left;	
+}
 
+.hamburger .glyphicon {
+	font-size: 24pt;
+	cursor: pointer;
+}
+
+
+@media screen and (max-width:760px){
+	.main-menu li {
+		text-align: center;
+		display: block;
+		width: 100%;
+	}
+	.main-menu {
+		padding: 0;
+		text-align: center;
+		display: none;
+	}
+	
+	.hamburger {
+		display: block;
+	}
+}
+
+
+@media screen and (min-width:500px) {
+	.main-menu {
+		display: block!important;
+	}
+}
 
 .gallery img {
 	width: 100%;	
