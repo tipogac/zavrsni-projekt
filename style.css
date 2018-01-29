@@ -45,9 +45,10 @@ body {
 		position: absolute;
 		top: 35%;
 		left: 35%;
-		transform: translate(-30%, -30%);
+		transform: translate(-35%, -35%);
 		margin: 0;
 		font-size: 30px;
+		text-align: center;
 	}
 }
 
