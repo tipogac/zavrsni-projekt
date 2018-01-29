@@ -301,6 +301,7 @@ body {
 .square-blocks a:hover {
 	color: #8f42f4;
 	text-decoration: none;
+	text-shadow: 0 0 20px white, 0 0 10px white;
 }
 
 .section {
