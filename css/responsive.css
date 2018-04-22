@@ -4,7 +4,7 @@
  padding: 40px 0;
 }
  #header.fixed a {
- color: #000;
+ color: #fff;
 }
  .nav-toggle {
  display: block;
@@ -40,17 +40,7 @@
  margin: 0;
  text-align: center;
 }
- .person {
- margin: 0 auto 50px;
-}
- .person-content {
- text-align: center;
-}
- .person .social-icons li {
- display: inline-block;
- float: none;
- margin-bottom: 5px;
-}
+
  .testimonials blockquote {
  padding: 20px 5% 0;
 }
